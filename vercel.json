@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "crons": [
+    { "path": "/api/companion-proactive?mode=tick", "schedule": "0 20 * * *" }
+  ]
+}
